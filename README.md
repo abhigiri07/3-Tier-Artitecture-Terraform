@@ -50,21 +50,21 @@ This design improves:
 
 ### Architecture Diagram (Logical)
 
-User
-│
-▼
-Internet Gateway
-│
-▼
-Application Load Balancer (Public Subnet)
-│
-▼
-Web Tier (EC2 / Auto Scaling)
-│
-▼
-App Tier (EC2 - Private Subnet)
-│
-▼
+User <br>
+│<br>
+▼<br>
+Internet Gateway<br>
+│<br>
+▼<br>
+Application Load Balancer (Public Subnet)<br>
+│<br>
+▼<br>
+Web Tier (EC2 / Auto Scaling)<br>
+│<br>
+▼<br>
+App Tier (EC2 - Private Subnet)<br>
+│<br>
+▼<br>
 Database Tier (EC2 - Private Subnet)
 
 ---
@@ -385,3 +385,4 @@ This project helps in understanding real-world AWS architecture and DevOps pract
 It is a strong learning and portfolio project for Cloud and DevOps beginners.
 
 ---
+
